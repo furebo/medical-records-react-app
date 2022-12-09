@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Signup from './Components/Signup';
+import {BrowserRouter,Routes, Route} from 'react-router-dom';
+import DrugsDetails from './Components/DisplayDrugsData';
+import PhysiciansDetails from './Components/DisplayPhysiciansData';
+import PatientsDetails from './Components/DisplayPatientsDetails';
+import Signin from './Components/Signin';
+import DisplayUsers from './Components/DisplayUsers';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASE || ''}>
+    <Routes>
+        <Route path='/' element={<Signup />} />
+        <Route path='/pharmacists' element={<DrugsDetails />} />
+        <Route path= '/physicians'  element={<PhysiciansDetails />} />
+        <Route path='/patients' element={<PatientsDetails />} />
+        <Route path='/login' element={<Signin />} />
+        <Route path='/users' element={<DisplayUsers />}/>
+    </Routes>
+    </BrowserRouter>
+
   );
 }
 

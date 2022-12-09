@@ -1,0 +1,91 @@
+body{
+    background-color: silver;
+    padding-top: 50px;
+    padding-bottom:50px ;
+}
+.registerForm{
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    border-top: 10px solid rgb(221, 221, 7);
+    border-left: 1px solid rgb(177, 169, 169);
+    border-right: 1px solid rgb(177, 169, 169);
+    border-bottom: 1px solid rgb(177, 169, 169);
+    border-radius:5px ;   
+    
+}
+
+h2{
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.InputsContainer {
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 30px;
+
+}
+
+.InputsContainer > input {
+    width: 300px;
+   
+
+}
+
+.InputsContainer > select {
+    width: 330px;
+   
+
+}
+
+
+
+.icon{
+    width: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    color: black;
+    border: 1px solid burlywood;
+    padding-top: 5px;
+    
+
+}
+.formgroup{
+    margin: auto;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.usernames{
+    display: flex;
+}
+.InputsContainer div{
+    display: flex;
+    justify-content: space-between;
+}
+.InputsContainer div input{
+    width: 120px;
+    margin-right: 20px;
+   
+}
+.button{
+    width: 330px;
+    height: 40px;
+    background-color: rgba(255, 238, 0, 0.884);
+    border: 1px solid yellow;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+.button :hover{
+    cursor: pointer;
+}
+

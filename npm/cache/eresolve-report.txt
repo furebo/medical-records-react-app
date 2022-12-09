@@ -1,0 +1,2360 @@
+# npm resolution error report
+
+2022-08-04T16:58:44.813Z
+
+While resolving: @material-ui/core@4.12.4
+Found: react@18.2.0
+node_modules/react
+  react@"^18.2.0" from the root project
+  peer react@">=16.8.0" from @emotion/react@11.9.3
+  node_modules/@emotion/react
+    @emotion/react@"^11.9.3" from the root project
+    peer @emotion/react@"^11.0.0-rc.0" from @emotion/styled@11.9.3
+    node_modules/@emotion/styled
+      @emotion/styled@"^11.9.3" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/material@5.9.2
+      node_modules/@mui/material
+        @mui/material@"^5.9.2" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/styled-engine@5.8.7
+      node_modules/@mui/styled-engine
+        @mui/styled-engine@"^5.8.7" from @mui/system@5.9.2
+        node_modules/@mui/system
+          @mui/system@"^5.9.2" from @mui/material@5.9.2
+          node_modules/@mui/material
+            @mui/material@"^5.9.2" from the root project
+      peerOptional @emotion/styled@"^11.3.0" from @mui/system@5.9.2
+      node_modules/@mui/system
+        @mui/system@"^5.9.2" from @mui/material@5.9.2
+        node_modules/@mui/material
+          @mui/material@"^5.9.2" from the root project
+    peerOptional @emotion/react@"^11.5.0" from @mui/material@5.9.2
+    node_modules/@mui/material
+      @mui/material@"^5.9.2" from the root project
+    peerOptional @emotion/react@"^11.4.1" from @mui/styled-engine@5.8.7
+    node_modules/@mui/styled-engine
+      @mui/styled-engine@"^5.8.7" from @mui/system@5.9.2
+      node_modules/@mui/system
+        @mui/system@"^5.9.2" from @mui/material@5.9.2
+        node_modules/@mui/material
+          @mui/material@"^5.9.2" from the root project
+    peerOptional @emotion/react@"^11.5.0" from @mui/system@5.9.2
+    node_modules/@mui/system
+      @mui/system@"^5.9.2" from @mui/material@5.9.2
+      node_modules/@mui/material
+        @mui/material@"^5.9.2" from the root project
+  peer react@">=16.8.0" from @emotion/styled@11.9.3
+  node_modules/@emotion/styled
+    @emotion/styled@"^11.9.3" from the root project
+    peerOptional @emotion/styled@"^11.3.0" from @mui/material@5.9.2
+    node_modules/@mui/material
+      @mui/material@"^5.9.2" from the root project
+    peerOptional @emotion/styled@"^11.3.0" from @mui/styled-engine@5.8.7
+    node_modules/@mui/styled-engine
+      @mui/styled-engine@"^5.8.7" from @mui/system@5.9.2
+      node_modules/@mui/system
+        @mui/system@"^5.9.2" from @mui/material@5.9.2
+        node_modules/@mui/material
+          @mui/material@"^5.9.2" from the root project
+    peerOptional @emotion/styled@"^11.3.0" from @mui/system@5.9.2
+    node_modules/@mui/system
+      @mui/system@"^5.9.2" from @mui/material@5.9.2
+      node_modules/@mui/material
+        @mui/material@"^5.9.2" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/base@5.0.0-alpha.91
+  node_modules/@mui/base
+    @mui/base@"5.0.0-alpha.91" from @mui/material@5.9.2
+    node_modules/@mui/material
+      @mui/material@"^5.9.2" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/material@5.9.2
+  node_modules/@mui/material
+    @mui/material@"^5.9.2" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/private-theming@5.9.1
+  node_modules/@mui/private-theming
+    @mui/private-theming@"^5.9.1" from @mui/system@5.9.2
+    node_modules/@mui/system
+      @mui/system@"^5.9.2" from @mui/material@5.9.2
+      node_modules/@mui/material
+        @mui/material@"^5.9.2" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/styled-engine@5.8.7
+  node_modules/@mui/styled-engine
+    @mui/styled-engine@"^5.8.7" from @mui/system@5.9.2
+    node_modules/@mui/system
+      @mui/system@"^5.9.2" from @mui/material@5.9.2
+      node_modules/@mui/material
+        @mui/material@"^5.9.2" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/system@5.9.2
+  node_modules/@mui/system
+    @mui/system@"^5.9.2" from @mui/material@5.9.2
+    node_modules/@mui/material
+      @mui/material@"^5.9.2" from the root project
+  peer react@"^17.0.0 || ^18.0.0" from @mui/utils@5.9.1
+  node_modules/@mui/utils
+    @mui/utils@"^5.9.1" from @mui/base@5.0.0-alpha.91
+    node_modules/@mui/base
+      @mui/base@"5.0.0-alpha.91" from @mui/material@5.9.2
+      node_modules/@mui/material
+        @mui/material@"^5.9.2" from the root project
+    @mui/utils@"^5.9.1" from @mui/material@5.9.2
+    node_modules/@mui/material
+      @mui/material@"^5.9.2" from the root project
+    @mui/utils@"^5.9.1" from @mui/private-theming@5.9.1
+    node_modules/@mui/private-theming
+      @mui/private-theming@"^5.9.1" from @mui/system@5.9.2
+      node_modules/@mui/system
+        @mui/system@"^5.9.2" from @mui/material@5.9.2
+        node_modules/@mui/material
+          @mui/material@"^5.9.2" from the root project
+    @mui/utils@"^5.9.1" from @mui/system@5.9.2
+    node_modules/@mui/system
+      @mui/system@"^5.9.2" from @mui/material@5.9.2
+      node_modules/@mui/material
+        @mui/material@"^5.9.2" from the root project
+  peer react@"^18.0.0" from @testing-library/react@13.3.0
+  node_modules/@testing-library/react
+    @testing-library/react@"^13.3.0" from the root project
+  peer react@"^18.2.0" from react-dom@18.2.0
+  node_modules/react-dom
+    react-dom@"^18.2.0" from the root project
+    peer react-dom@"^17.0.0 || ^18.0.0" from @mui/base@5.0.0-alpha.91
+    node_modules/@mui/base
+      @mui/base@"5.0.0-alpha.91" from @mui/material@5.9.2
+      node_modules/@mui/material
+        @mui/material@"^5.9.2" from the root project
+    peer react-dom@"^17.0.0 || ^18.0.0" from @mui/material@5.9.2
+    node_modules/@mui/material
+      @mui/material@"^5.9.2" from the root project
+    peer react-dom@"^18.0.0" from @testing-library/react@13.3.0
+    node_modules/@testing-library/react
+      @testing-library/react@"^13.3.0" from the root project
+    peer react-dom@">=16.8" from react-router-dom@6.3.0
+    node_modules/react-router-dom
+      react-router-dom@"^6.3.0" from the root project
+    peer react-dom@">=16.6.0" from react-transition-group@4.4.4
+    node_modules/react-transition-group
+      react-transition-group@"^4.4.0" from @material-ui/core@4.12.4
+      node_modules/@material-ui/core
+        @material-ui/core@"^4.12.4" from the root project
+      react-transition-group@"^4.4.2" from @mui/material@5.9.2
+      node_modules/@mui/material
+        @mui/material@"^5.9.2" from the root project
+  peer react@">=16.8" from react-router@6.3.0
+  node_modules/react-router
+    react-router@"6.3.0" from react-router-dom@6.3.0
+    node_modules/react-router-dom
+      react-router-dom@"^6.3.0" from the root project
+  peer react@">=16.8" from react-router-dom@6.3.0
+  node_modules/react-router-dom
+    react-router-dom@"^6.3.0" from the root project
+  peer react@">= 16" from react-scripts@5.0.1
+  node_modules/react-scripts
+    react-scripts@"5.0.1" from the root project
+  peer react@">=16.6.0" from react-transition-group@4.4.4
+  node_modules/react-transition-group
+    react-transition-group@"^4.4.0" from @material-ui/core@4.12.4
+    node_modules/@material-ui/core
+      @material-ui/core@"^4.12.4" from the root project
+    react-transition-group@"^4.4.2" from @mui/material@5.9.2
+    node_modules/@mui/material
+      @mui/material@"^5.9.2" from the root project
+
+Could not resolve dependency:
+peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+node_modules/@material-ui/core
+  @material-ui/core@"^4.12.4" from the root project
+
+Conflicting peer dependency: react@17.0.2
+node_modules/react
+  peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+  node_modules/@material-ui/core
+    @material-ui/core@"^4.12.4" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "edge": {
+    "type": "peer",
+    "name": "react",
+    "spec": "^16.8.0 || ^17.0.0",
+    "error": "INVALID",
+    "from": {
+      "name": "@material-ui/core",
+      "version": "4.12.4",
+      "location": "node_modules/@material-ui/core",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "@material-ui/core",
+          "spec": "^4.12.4",
+          "from": {
+            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+          }
+        }
+      ]
+    }
+  },
+  "dep": {
+    "name": "react",
+    "version": "17.0.2",
+    "whileInstalling": {
+      "name": "@material-ui/core",
+      "version": "4.12.4",
+      "path": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp\\node_modules\\@material-ui\\core"
+    },
+    "location": "node_modules/react",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17.0.0",
+        "error": "INVALID",
+        "from": {
+          "name": "@material-ui/core",
+          "version": "4.12.4",
+          "location": "node_modules/@material-ui/core",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@material-ui/core",
+              "spec": "^4.12.4",
+              "from": {
+                "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "current": {
+    "name": "react",
+    "version": "18.2.0",
+    "location": "node_modules/react",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "react",
+        "spec": "^18.2.0",
+        "from": {
+          "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8.0",
+        "from": {
+          "name": "@emotion/react",
+          "version": "11.9.3",
+          "location": "node_modules/@emotion/react",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@emotion/react",
+              "spec": "^11.9.3",
+              "from": {
+                "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+              }
+            },
+            {
+              "type": "peer",
+              "name": "@emotion/react",
+              "spec": "^11.0.0-rc.0",
+              "from": {
+                "name": "@emotion/styled",
+                "version": "11.9.3",
+                "location": "node_modules/@emotion/styled",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@emotion/styled",
+                    "spec": "^11.9.3",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  },
+                  {
+                    "type": "peerOptional",
+                    "name": "@emotion/styled",
+                    "spec": "^11.3.0",
+                    "from": {
+                      "name": "@mui/material",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/material",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/material",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peerOptional",
+                    "name": "@emotion/styled",
+                    "spec": "^11.3.0",
+                    "from": {
+                      "name": "@mui/styled-engine",
+                      "version": "5.8.7",
+                      "location": "node_modules/@mui/styled-engine",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/styled-engine",
+                          "spec": "^5.8.7",
+                          "from": {
+                            "name": "@mui/system",
+                            "version": "5.9.2",
+                            "location": "node_modules/@mui/system",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@mui/system",
+                                "spec": "^5.9.2",
+                                "from": {
+                                  "name": "@mui/material",
+                                  "version": "5.9.2",
+                                  "location": "node_modules/@mui/material",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@mui/material",
+                                      "spec": "^5.9.2",
+                                      "from": {
+                                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peerOptional",
+                    "name": "@emotion/styled",
+                    "spec": "^11.3.0",
+                    "from": {
+                      "name": "@mui/system",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/system",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/system",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "name": "@mui/material",
+                            "version": "5.9.2",
+                            "location": "node_modules/@mui/material",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@mui/material",
+                                "spec": "^5.9.2",
+                                "from": {
+                                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peerOptional",
+              "name": "@emotion/react",
+              "spec": "^11.5.0",
+              "from": {
+                "name": "@mui/material",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/material",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/material",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peerOptional",
+              "name": "@emotion/react",
+              "spec": "^11.4.1",
+              "from": {
+                "name": "@mui/styled-engine",
+                "version": "5.8.7",
+                "location": "node_modules/@mui/styled-engine",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/styled-engine",
+                    "spec": "^5.8.7",
+                    "from": {
+                      "name": "@mui/system",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/system",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/system",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "name": "@mui/material",
+                            "version": "5.9.2",
+                            "location": "node_modules/@mui/material",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@mui/material",
+                                "spec": "^5.9.2",
+                                "from": {
+                                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peerOptional",
+              "name": "@emotion/react",
+              "spec": "^11.5.0",
+              "from": {
+                "name": "@mui/system",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/system",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/system",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "name": "@mui/material",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/material",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/material",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8.0",
+        "from": {
+          "name": "@emotion/styled",
+          "version": "11.9.3",
+          "location": "node_modules/@emotion/styled",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@emotion/styled",
+              "spec": "^11.9.3",
+              "from": {
+                "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+              }
+            },
+            {
+              "type": "peerOptional",
+              "name": "@emotion/styled",
+              "spec": "^11.3.0",
+              "from": {
+                "name": "@mui/material",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/material",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/material",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peerOptional",
+              "name": "@emotion/styled",
+              "spec": "^11.3.0",
+              "from": {
+                "name": "@mui/styled-engine",
+                "version": "5.8.7",
+                "location": "node_modules/@mui/styled-engine",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/styled-engine",
+                    "spec": "^5.8.7",
+                    "from": {
+                      "name": "@mui/system",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/system",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/system",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "name": "@mui/material",
+                            "version": "5.9.2",
+                            "location": "node_modules/@mui/material",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@mui/material",
+                                "spec": "^5.9.2",
+                                "from": {
+                                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peerOptional",
+              "name": "@emotion/styled",
+              "spec": "^11.3.0",
+              "from": {
+                "name": "@mui/system",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/system",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/system",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "name": "@mui/material",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/material",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/material",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^17.0.0 || ^18.0.0",
+        "from": {
+          "name": "@mui/base",
+          "version": "5.0.0-alpha.91",
+          "location": "node_modules/@mui/base",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@mui/base",
+              "spec": "5.0.0-alpha.91",
+              "from": {
+                "name": "@mui/material",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/material",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/material",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^17.0.0 || ^18.0.0",
+        "from": {
+          "name": "@mui/material",
+          "version": "5.9.2",
+          "location": "node_modules/@mui/material",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@mui/material",
+              "spec": "^5.9.2",
+              "from": {
+                "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^17.0.0 || ^18.0.0",
+        "from": {
+          "name": "@mui/private-theming",
+          "version": "5.9.1",
+          "location": "node_modules/@mui/private-theming",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@mui/private-theming",
+              "spec": "^5.9.1",
+              "from": {
+                "name": "@mui/system",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/system",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/system",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "name": "@mui/material",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/material",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/material",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^17.0.0 || ^18.0.0",
+        "from": {
+          "name": "@mui/styled-engine",
+          "version": "5.8.7",
+          "location": "node_modules/@mui/styled-engine",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@mui/styled-engine",
+              "spec": "^5.8.7",
+              "from": {
+                "name": "@mui/system",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/system",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/system",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "name": "@mui/material",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/material",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/material",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^17.0.0 || ^18.0.0",
+        "from": {
+          "name": "@mui/system",
+          "version": "5.9.2",
+          "location": "node_modules/@mui/system",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@mui/system",
+              "spec": "^5.9.2",
+              "from": {
+                "name": "@mui/material",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/material",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/material",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^17.0.0 || ^18.0.0",
+        "from": {
+          "name": "@mui/utils",
+          "version": "5.9.1",
+          "location": "node_modules/@mui/utils",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@mui/utils",
+              "spec": "^5.9.1",
+              "from": {
+                "name": "@mui/base",
+                "version": "5.0.0-alpha.91",
+                "location": "node_modules/@mui/base",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/base",
+                    "spec": "5.0.0-alpha.91",
+                    "from": {
+                      "name": "@mui/material",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/material",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/material",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "@mui/utils",
+              "spec": "^5.9.1",
+              "from": {
+                "name": "@mui/material",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/material",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/material",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "@mui/utils",
+              "spec": "^5.9.1",
+              "from": {
+                "name": "@mui/private-theming",
+                "version": "5.9.1",
+                "location": "node_modules/@mui/private-theming",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/private-theming",
+                    "spec": "^5.9.1",
+                    "from": {
+                      "name": "@mui/system",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/system",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/system",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "name": "@mui/material",
+                            "version": "5.9.2",
+                            "location": "node_modules/@mui/material",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@mui/material",
+                                "spec": "^5.9.2",
+                                "from": {
+                                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "@mui/utils",
+              "spec": "^5.9.1",
+              "from": {
+                "name": "@mui/system",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/system",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/system",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "name": "@mui/material",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/material",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/material",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^18.0.0",
+        "from": {
+          "name": "@testing-library/react",
+          "version": "13.3.0",
+          "location": "node_modules/@testing-library/react",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@testing-library/react",
+              "spec": "^13.3.0",
+              "from": {
+                "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^18.2.0",
+        "from": {
+          "name": "react-dom",
+          "version": "18.2.0",
+          "location": "node_modules/react-dom",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-dom",
+              "spec": "^18.2.0",
+              "from": {
+                "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^17.0.0 || ^18.0.0",
+              "from": {
+                "name": "@mui/base",
+                "version": "5.0.0-alpha.91",
+                "location": "node_modules/@mui/base",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/base",
+                    "spec": "5.0.0-alpha.91",
+                    "from": {
+                      "name": "@mui/material",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/material",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/material",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^17.0.0 || ^18.0.0",
+              "from": {
+                "name": "@mui/material",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/material",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/material",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^18.0.0",
+              "from": {
+                "name": "@testing-library/react",
+                "version": "13.3.0",
+                "location": "node_modules/@testing-library/react",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@testing-library/react",
+                    "spec": "^13.3.0",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": ">=16.8",
+              "from": {
+                "name": "react-router-dom",
+                "version": "6.3.0",
+                "location": "node_modules/react-router-dom",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "react-router-dom",
+                    "spec": "^6.3.0",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": ">=16.6.0",
+              "from": {
+                "name": "react-transition-group",
+                "version": "4.4.4",
+                "location": "node_modules/react-transition-group",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "react-transition-group",
+                    "spec": "^4.4.0",
+                    "from": {
+                      "name": "@material-ui/core",
+                      "version": "4.12.4",
+                      "location": "node_modules/@material-ui/core",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/core",
+                          "spec": "^4.12.4",
+                          "from": {
+                            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "react-transition-group",
+                    "spec": "^4.4.2",
+                    "from": {
+                      "name": "@mui/material",
+                      "version": "5.9.2",
+                      "location": "node_modules/@mui/material",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@mui/material",
+                          "spec": "^5.9.2",
+                          "from": {
+                            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8",
+        "from": {
+          "name": "react-router",
+          "version": "6.3.0",
+          "location": "node_modules/react-router",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-router",
+              "spec": "6.3.0",
+              "from": {
+                "name": "react-router-dom",
+                "version": "6.3.0",
+                "location": "node_modules/react-router-dom",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "react-router-dom",
+                    "spec": "^6.3.0",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8",
+        "from": {
+          "name": "react-router-dom",
+          "version": "6.3.0",
+          "location": "node_modules/react-router-dom",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-router-dom",
+              "spec": "^6.3.0",
+              "from": {
+                "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">= 16",
+        "from": {
+          "name": "react-scripts",
+          "version": "5.0.1",
+          "location": "node_modules/react-scripts",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-scripts",
+              "spec": "5.0.1",
+              "from": {
+                "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.6.0",
+        "from": {
+          "name": "react-transition-group",
+          "version": "4.4.4",
+          "location": "node_modules/react-transition-group",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-transition-group",
+              "spec": "^4.4.0",
+              "from": {
+                "name": "@material-ui/core",
+                "version": "4.12.4",
+                "location": "node_modules/@material-ui/core",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/core",
+                    "spec": "^4.12.4",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "react-transition-group",
+              "spec": "^4.4.2",
+              "from": {
+                "name": "@mui/material",
+                "version": "5.9.2",
+                "location": "node_modules/@mui/material",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@mui/material",
+                    "spec": "^5.9.2",
+                    "from": {
+                      "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "peerConflict": {
+    "current": {
+      "name": "react",
+      "version": "18.2.0",
+      "location": "node_modules/react",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "react",
+          "spec": "^18.2.0",
+          "from": {
+            "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.8.0",
+          "from": {
+            "name": "@emotion/react",
+            "version": "11.9.3",
+            "location": "node_modules/@emotion/react",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "@emotion/react",
+                "spec": "^11.9.3",
+                "from": {
+                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                }
+              },
+              {
+                "type": "peer",
+                "name": "@emotion/react",
+                "spec": "^11.0.0-rc.0",
+                "from": {
+                  "name": "@emotion/styled",
+                  "version": "11.9.3",
+                  "location": "node_modules/@emotion/styled",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@emotion/styled",
+                      "spec": "^11.9.3",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    },
+                    {
+                      "type": "peerOptional",
+                      "name": "@emotion/styled",
+                      "spec": "^11.3.0",
+                      "from": {
+                        "name": "@mui/material",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/material",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/material",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "peerOptional",
+                      "name": "@emotion/styled",
+                      "spec": "^11.3.0",
+                      "from": {
+                        "name": "@mui/styled-engine",
+                        "version": "5.8.7",
+                        "location": "node_modules/@mui/styled-engine",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/styled-engine",
+                            "spec": "^5.8.7",
+                            "from": {
+                              "name": "@mui/system",
+                              "version": "5.9.2",
+                              "location": "node_modules/@mui/system",
+                              "isWorkspace": false,
+                              "dependents": [
+                                {
+                                  "type": "prod",
+                                  "name": "@mui/system",
+                                  "spec": "^5.9.2",
+                                  "from": {
+                                    "name": "@mui/material",
+                                    "version": "5.9.2",
+                                    "location": "node_modules/@mui/material",
+                                    "isWorkspace": false,
+                                    "dependents": [
+                                      {
+                                        "type": "prod",
+                                        "name": "@mui/material",
+                                        "spec": "^5.9.2",
+                                        "from": {
+                                          "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "peerOptional",
+                      "name": "@emotion/styled",
+                      "spec": "^11.3.0",
+                      "from": {
+                        "name": "@mui/system",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/system",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/system",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "name": "@mui/material",
+                              "version": "5.9.2",
+                              "location": "node_modules/@mui/material",
+                              "isWorkspace": false,
+                              "dependents": [
+                                {
+                                  "type": "prod",
+                                  "name": "@mui/material",
+                                  "spec": "^5.9.2",
+                                  "from": {
+                                    "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peerOptional",
+                "name": "@emotion/react",
+                "spec": "^11.5.0",
+                "from": {
+                  "name": "@mui/material",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/material",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/material",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peerOptional",
+                "name": "@emotion/react",
+                "spec": "^11.4.1",
+                "from": {
+                  "name": "@mui/styled-engine",
+                  "version": "5.8.7",
+                  "location": "node_modules/@mui/styled-engine",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/styled-engine",
+                      "spec": "^5.8.7",
+                      "from": {
+                        "name": "@mui/system",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/system",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/system",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "name": "@mui/material",
+                              "version": "5.9.2",
+                              "location": "node_modules/@mui/material",
+                              "isWorkspace": false,
+                              "dependents": [
+                                {
+                                  "type": "prod",
+                                  "name": "@mui/material",
+                                  "spec": "^5.9.2",
+                                  "from": {
+                                    "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peerOptional",
+                "name": "@emotion/react",
+                "spec": "^11.5.0",
+                "from": {
+                  "name": "@mui/system",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/system",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/system",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "name": "@mui/material",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/material",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/material",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.8.0",
+          "from": {
+            "name": "@emotion/styled",
+            "version": "11.9.3",
+            "location": "node_modules/@emotion/styled",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "@emotion/styled",
+                "spec": "^11.9.3",
+                "from": {
+                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                }
+              },
+              {
+                "type": "peerOptional",
+                "name": "@emotion/styled",
+                "spec": "^11.3.0",
+                "from": {
+                  "name": "@mui/material",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/material",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/material",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peerOptional",
+                "name": "@emotion/styled",
+                "spec": "^11.3.0",
+                "from": {
+                  "name": "@mui/styled-engine",
+                  "version": "5.8.7",
+                  "location": "node_modules/@mui/styled-engine",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/styled-engine",
+                      "spec": "^5.8.7",
+                      "from": {
+                        "name": "@mui/system",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/system",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/system",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "name": "@mui/material",
+                              "version": "5.9.2",
+                              "location": "node_modules/@mui/material",
+                              "isWorkspace": false,
+                              "dependents": [
+                                {
+                                  "type": "prod",
+                                  "name": "@mui/material",
+                                  "spec": "^5.9.2",
+                                  "from": {
+                                    "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peerOptional",
+                "name": "@emotion/styled",
+                "spec": "^11.3.0",
+                "from": {
+                  "name": "@mui/system",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/system",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/system",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "name": "@mui/material",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/material",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/material",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^17.0.0 || ^18.0.0",
+          "from": {
+            "name": "@mui/base",
+            "version": "5.0.0-alpha.91",
+            "location": "node_modules/@mui/base",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "@mui/base",
+                "spec": "5.0.0-alpha.91",
+                "from": {
+                  "name": "@mui/material",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/material",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/material",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^17.0.0 || ^18.0.0",
+          "from": {
+            "name": "@mui/material",
+            "version": "5.9.2",
+            "location": "node_modules/@mui/material",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "@mui/material",
+                "spec": "^5.9.2",
+                "from": {
+                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^17.0.0 || ^18.0.0",
+          "from": {
+            "name": "@mui/private-theming",
+            "version": "5.9.1",
+            "location": "node_modules/@mui/private-theming",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "@mui/private-theming",
+                "spec": "^5.9.1",
+                "from": {
+                  "name": "@mui/system",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/system",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/system",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "name": "@mui/material",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/material",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/material",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^17.0.0 || ^18.0.0",
+          "from": {
+            "name": "@mui/styled-engine",
+            "version": "5.8.7",
+            "location": "node_modules/@mui/styled-engine",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "@mui/styled-engine",
+                "spec": "^5.8.7",
+                "from": {
+                  "name": "@mui/system",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/system",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/system",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "name": "@mui/material",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/material",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/material",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^17.0.0 || ^18.0.0",
+          "from": {
+            "name": "@mui/system",
+            "version": "5.9.2",
+            "location": "node_modules/@mui/system",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "@mui/system",
+                "spec": "^5.9.2",
+                "from": {
+                  "name": "@mui/material",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/material",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/material",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^17.0.0 || ^18.0.0",
+          "from": {
+            "name": "@mui/utils",
+            "version": "5.9.1",
+            "location": "node_modules/@mui/utils",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "@mui/utils",
+                "spec": "^5.9.1",
+                "from": {
+                  "name": "@mui/base",
+                  "version": "5.0.0-alpha.91",
+                  "location": "node_modules/@mui/base",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/base",
+                      "spec": "5.0.0-alpha.91",
+                      "from": {
+                        "name": "@mui/material",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/material",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/material",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "prod",
+                "name": "@mui/utils",
+                "spec": "^5.9.1",
+                "from": {
+                  "name": "@mui/material",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/material",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/material",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "prod",
+                "name": "@mui/utils",
+                "spec": "^5.9.1",
+                "from": {
+                  "name": "@mui/private-theming",
+                  "version": "5.9.1",
+                  "location": "node_modules/@mui/private-theming",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/private-theming",
+                      "spec": "^5.9.1",
+                      "from": {
+                        "name": "@mui/system",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/system",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/system",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "name": "@mui/material",
+                              "version": "5.9.2",
+                              "location": "node_modules/@mui/material",
+                              "isWorkspace": false,
+                              "dependents": [
+                                {
+                                  "type": "prod",
+                                  "name": "@mui/material",
+                                  "spec": "^5.9.2",
+                                  "from": {
+                                    "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "prod",
+                "name": "@mui/utils",
+                "spec": "^5.9.1",
+                "from": {
+                  "name": "@mui/system",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/system",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/system",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "name": "@mui/material",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/material",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/material",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^18.0.0",
+          "from": {
+            "name": "@testing-library/react",
+            "version": "13.3.0",
+            "location": "node_modules/@testing-library/react",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "@testing-library/react",
+                "spec": "^13.3.0",
+                "from": {
+                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^18.2.0",
+          "from": {
+            "name": "react-dom",
+            "version": "18.2.0",
+            "location": "node_modules/react-dom",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-dom",
+                "spec": "^18.2.0",
+                "from": {
+                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-dom",
+                "spec": "^17.0.0 || ^18.0.0",
+                "from": {
+                  "name": "@mui/base",
+                  "version": "5.0.0-alpha.91",
+                  "location": "node_modules/@mui/base",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/base",
+                      "spec": "5.0.0-alpha.91",
+                      "from": {
+                        "name": "@mui/material",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/material",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/material",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-dom",
+                "spec": "^17.0.0 || ^18.0.0",
+                "from": {
+                  "name": "@mui/material",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/material",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/material",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-dom",
+                "spec": "^18.0.0",
+                "from": {
+                  "name": "@testing-library/react",
+                  "version": "13.3.0",
+                  "location": "node_modules/@testing-library/react",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@testing-library/react",
+                      "spec": "^13.3.0",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-dom",
+                "spec": ">=16.8",
+                "from": {
+                  "name": "react-router-dom",
+                  "version": "6.3.0",
+                  "location": "node_modules/react-router-dom",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "react-router-dom",
+                      "spec": "^6.3.0",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "peer",
+                "name": "react-dom",
+                "spec": ">=16.6.0",
+                "from": {
+                  "name": "react-transition-group",
+                  "version": "4.4.4",
+                  "location": "node_modules/react-transition-group",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "react-transition-group",
+                      "spec": "^4.4.0",
+                      "from": {
+                        "name": "@material-ui/core",
+                        "version": "4.12.4",
+                        "location": "node_modules/@material-ui/core",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@material-ui/core",
+                            "spec": "^4.12.4",
+                            "from": {
+                              "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "prod",
+                      "name": "react-transition-group",
+                      "spec": "^4.4.2",
+                      "from": {
+                        "name": "@mui/material",
+                        "version": "5.9.2",
+                        "location": "node_modules/@mui/material",
+                        "isWorkspace": false,
+                        "dependents": [
+                          {
+                            "type": "prod",
+                            "name": "@mui/material",
+                            "spec": "^5.9.2",
+                            "from": {
+                              "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.8",
+          "from": {
+            "name": "react-router",
+            "version": "6.3.0",
+            "location": "node_modules/react-router",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-router",
+                "spec": "6.3.0",
+                "from": {
+                  "name": "react-router-dom",
+                  "version": "6.3.0",
+                  "location": "node_modules/react-router-dom",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "react-router-dom",
+                      "spec": "^6.3.0",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.8",
+          "from": {
+            "name": "react-router-dom",
+            "version": "6.3.0",
+            "location": "node_modules/react-router-dom",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-router-dom",
+                "spec": "^6.3.0",
+                "from": {
+                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">= 16",
+          "from": {
+            "name": "react-scripts",
+            "version": "5.0.1",
+            "location": "node_modules/react-scripts",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-scripts",
+                "spec": "5.0.1",
+                "from": {
+                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": ">=16.6.0",
+          "from": {
+            "name": "react-transition-group",
+            "version": "4.4.4",
+            "location": "node_modules/react-transition-group",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-transition-group",
+                "spec": "^4.4.0",
+                "from": {
+                  "name": "@material-ui/core",
+                  "version": "4.12.4",
+                  "location": "node_modules/@material-ui/core",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@material-ui/core",
+                      "spec": "^4.12.4",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "prod",
+                "name": "react-transition-group",
+                "spec": "^4.4.2",
+                "from": {
+                  "name": "@mui/material",
+                  "version": "5.9.2",
+                  "location": "node_modules/@mui/material",
+                  "isWorkspace": false,
+                  "dependents": [
+                    {
+                      "type": "prod",
+                      "name": "@mui/material",
+                      "spec": "^5.9.2",
+                      "from": {
+                        "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "peer": {
+      "name": "react",
+      "version": "17.0.2",
+      "whileInstalling": {
+        "name": "@material-ui/core",
+        "version": "4.12.4",
+        "path": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp\\node_modules\\@material-ui\\core"
+      },
+      "location": "node_modules/react",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "peer",
+          "name": "react",
+          "spec": "^16.8.0 || ^17.0.0",
+          "error": "INVALID",
+          "from": {
+            "name": "@material-ui/core",
+            "version": "4.12.4",
+            "location": "node_modules/@material-ui/core",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "@material-ui/core",
+                "spec": "^4.12.4",
+                "from": {
+                  "location": "C:\\Users\\USER\\Desktop\\singupform\\registrationapp"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "strictPeerDeps": false,
+  "force": false,
+  "isMine": true
+}

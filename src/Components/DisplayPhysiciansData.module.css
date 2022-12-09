@@ -1,0 +1,14 @@
+.container {
+    width:900px;
+    background-color: rgba(250, 243, 183, 0.837);
+    margin: auto;
+}
+
+.table_cell{
+    width:300px;
+    padding-left: 120px;
+    border: 1px solid black;
+}
+.table {
+    margin: auto;
+}
