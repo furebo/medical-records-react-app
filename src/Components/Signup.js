@@ -8,7 +8,7 @@ export default function SignupForm() {
   return (
     <div className="registerForm">
         <h2>Form to use for registration</h2>
-        <form className='formgroup' action='http://localhost:8080/MedicalApplication/SignupServlet2' >
+        <form className='formgroup' action='http://localhost:8080/MedicalApplication/SignupServlet2' method="POST">
             <div className='InputsContainer'>
                 <i className="fa fa-envelope icon"></i>
                 <input placeholder="Email" name="email"/>
