@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "http://localhost:8080/medical-app/static/css/main.0598b3e0.css",
-    "main.js": "http://localhost:8080/medical-app/static/js/main.52b75c37.js",
+    "main.css": "http://localhost:8080/medical-app/static/css/main.89de184f.css",
+    "main.js": "http://localhost:8080/medical-app/static/js/main.1be096c9.js",
     "index.html": "http://localhost:8080/medical-app/index.html",
-    "main.0598b3e0.css.map": "http://localhost:8080/medical-app/static/css/main.0598b3e0.css.map",
-    "main.52b75c37.js.map": "http://localhost:8080/medical-app/static/js/main.52b75c37.js.map"
+    "main.89de184f.css.map": "http://localhost:8080/medical-app/static/css/main.89de184f.css.map",
+    "main.1be096c9.js.map": "http://localhost:8080/medical-app/static/js/main.1be096c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.0598b3e0.css",
-    "static/js/main.52b75c37.js"
+    "static/css/main.89de184f.css",
+    "static/js/main.1be096c9.js"
   ]
 }

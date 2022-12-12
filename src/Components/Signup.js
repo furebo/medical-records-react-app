@@ -1,13 +1,14 @@
 import React from 'react';
 import './Signup.css';
 import { FormGroup, Radio, RadioGroup, FormControlLabel, Checkbox } from '@material-ui/core';
+ 
 
 export default function SignupForm() {
 
   return (
     <div className="registerForm">
-        <h2>Registration Form</h2>
-        <form className='formgroup' action='SignupServlet2' >
+        <h2>Form to use for registration</h2>
+        <form className='formgroup' action='http://localhost:8080/MedicalApplication/SignupServlet2' >
             <div className='InputsContainer'>
                 <i className="fa fa-envelope icon"></i>
                 <input placeholder="Email" name="email"/>
